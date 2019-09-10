@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.xzwzz.writecharacter.widget.ChineseCharacterView
+        android:id="@+id/mChineseCharacterView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        app:autodraw="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入要查询的文字"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动绘制" />
+
+    <Button
+        android:id="@+id/btn_median"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示中线" />
+</LinearLayout>
