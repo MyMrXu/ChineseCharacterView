@@ -1,7 +1,7 @@
 # ChineseCharacterView
 Android汉字笔画描红
 
-![效果图]("https://github.com/MyMrXu/ChineseCharacterView/blob/master/image/example.gif")
+![效果图]("https://raw.githubusercontent.com/MyMrXu/ChineseCharacterView/master/image/example.gif")
 
 项目过程中遇到的一个问题
 
