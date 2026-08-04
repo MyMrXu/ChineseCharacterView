@@ -34,6 +34,7 @@ public class PathParser {
         Path path = new Path();
         PathDataNode[] nodes = createNodesFromPathData(pathData);
         if (nodes != null) {
+            path.rLineTo(0, 0);
             PathDataNode.nodesToPath(nodes, path);
             return path;
         }
